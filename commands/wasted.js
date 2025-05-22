@@ -15,7 +15,7 @@ async function wastedCommand(sock, chatId, message) {
     
     if (!userToWaste) {
         await sock.sendMessage(chatId, { 
-            text: 'Please mention someone or reply to their message to waste them!', 
+            text: 'ABBE SALE mention someone or reply to their message to waste them!', 
             ...channelInfo 
         });
         return;
